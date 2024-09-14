@@ -12,7 +12,7 @@ body {
 
 .main-box {
     width: 85%; /* Siempre va a medir 85% pero mientras el tamaño sea menor a 500px, una vez que llegue a 500px no va a crecer más, debajo de eso siempre va a medir el 85%*/
-    max-width: 500px; /* Con estas 3 primeras lineas te ahorras un media querie*/
+    max-width: 400px; /* Con estas 3 primeras lineas te ahorras un media querie*/
     min-width: 300px;
     background-color: white;
     border-radius: 25px;
