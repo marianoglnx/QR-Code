@@ -1,0 +1,46 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box {
+    width: 85%; /* Siempre va a medir 85% pero mientras el tamaño sea menor a 500px, una vez que llegue a 500px no va a crecer más, debajo de eso siempre va a medir el 85%*/
+    max-width: 500px; /* Con estas 3 primeras lineas te ahorras un media querie*/
+    min-width: 300px;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.qr { 
+    width: 100%;
+}
+
+.qr img {
+    width: 100%;
+    height: 100%;
+}
+
+.text h1 {
+    text-align: center;
+    font-size: 28px;
+    color: hsl(218, 44%, 22%);
+    margin: 20px 0px;
+    font-weight: 700;
+}
+
+.text p {
+    text-align: center;
+    color: hsl(0, 0%, 61%);
+    font-size: 21px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
